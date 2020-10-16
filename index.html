@@ -5,50 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google</title>
     <link rel="shortcut icon" type="image/x-icon" href="https://www.google.com/favicon.ico"/>
-    <link rel="stylesheet" href="style.cssw">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <nav>
-        <ul>
+        <ul> 
             <li>About</li>
             <li>Store</li>
         </ul>
-        <ul>
+        <ul class='float-right'>
             <li>Gmail</li>
             <li>Images</li>
-            <li>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
+            <li id="nine-boxes">
+                <img width='20px' height='20px' src='/show-apps-button_icon-icons.com_72551.png'/>
             </li>
-            <li><img src='https://htmlcolors.com/img/change-user.png' alt='user icon'/></li>
+            <li><img id='user-icon' src='https://htmlcolors.com/img/change-user.png' alt='user icon'/></li>
         </ul>
     </nav>
-    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo" />
-    <div id='search'>
-        <img src="https://img.icons8.com/fluent-systems-regular/24/000000/search.png"/>
-        <input type='text' />
-        <img id='microphone' src='https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/716px-Google_mic.svg.png' alt='microphone icon' />
-    </div>
-    <div class='grey-box'>
-        <p>Google Search</p>
-    </div>
-    <div class='grey-box'>
-        <p>I'm Feeling Lucky</p>
-    </div>
+    <section id='main-section'/>
+        <img id='logo' src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo" />
+        <div id='search'>
+            <img id='magnifying' src="https://img.icons8.com/fluent-systems-regular/24/000000/search.png"/>
+            <input type='text' />
+            <img id='microphone' src='https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/716px-Google_mic.svg.png' alt='microphone icon' />
+        </div>
+        <section id='boxes'>
+            <div class='grey-box'>
+                <p>Google Search</p>
+            </div>
+            <div class='grey-box'>
+                <p>I'm Feeling Lucky</p>
+            </div>
+        </section>
+    </section>
     <footer>
         <ul>
             <li>Advertising</li>
             <li>Business</li>
             <li>How Search Works</li>
         </ul>
-        <ul>
+        <ul class='float-right'>
             <li>Privacy</li>
             <li>Terms</li>
             <li>Settings</li>
